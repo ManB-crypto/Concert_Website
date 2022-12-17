@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>login ks</title>
+	<h1 style="color:white">HELLO NEWCOMER</h1>
+<style>
+	
+	body { 
+		color: white;font-family: Arial;
+	    background-image: url("image/purple (2).jpg");
+	   min-height: 1000px;
+	   background-position: center;
+	   background-size: cover;
+	   position: relative;}
+	form {border: 3px solid black;
+         position: relative;
+	    margin: auto;
+       width: 30%;
+       border: 3px solid black;
+      }
+	
+	input[type=text], input[type=password]{
+		width: 100%;
+		padding: 10px ;
+		display: inline-block;
+		border: 2px solid black;
+		box-sizing: border-box;}
+	
+	button{
+		background-color:green;
+		color: black;
+		padding: 14px 20px;
+        margin: 12px 0px;
+        border: 3px blue;
+		cursor: pointer;
+		width: 100%;
+		right: 100%;
+	    color: white;}
+	 
+	button:hover{opacity: 0.5;}
+
+	.cancel{
+		width: auto;
+		padding: 10px 15px;
+	
+		background-color: red;
+	    }
+	.imagebox{
+		text-align: center;
+		margin: 12px 0 12px 0;}
+	.imgpicture{
+	    width: 40%;
+        border-radius: 50%;}
+	.container{
+		padding: 10px ;
+	    font-family:"Times New Roman", Times, serif;}
+	h1{text-align: center;}
+	span{padding-left: 700px;}
+	
+	</style>
+</head>
+
+<body>
+	<form action="register.php" method="post">
+		
+	<div class="imagebox">
+		<img src= "image/circle-cropped.png" width="200" height="200" alt="UwU"> </div>
+		
+	<div class ="container">
+				<label for ="username"><b>Username</b>
+		<input type="text" placeholder="Username..." name ="username" required></label>
+	    	<br><br>
+        <label for="password"><b>Password</b>
+        <input type="password" placeholder="Password...." name="password" required>
+			    	<br><br>
+        <label for="email"><b>Email</b>
+        <input type="text" placeholder="email...." name="email" required></label>
+						    	
+        <label for="number"><b>Phone Number</b>
+        <input type="text" placeholder="Phone Number...." name="number" required></label>
+									    
+        <label for="address"><b>Adress</b>
+        <input type="text" placeholder="Adress...." name="address" required></label>
+			<br><br>
+
+		
+		<button type="submit" >Register</button>
+		</label></div>
+	<div class="container" style="background-color:black">
+<a href = "assigment1.html"><button style="background-color: red" type="button" class="cancel" >Cancel</button></a>
+		</div>
+</form>
+</body>
+</html>
